@@ -1,0 +1,105 @@
+#colorDegrad{
+    background: linear-gradient(120deg, #0b8ee6, #a403e9); /* Dégradé de couleur bleu à violet */
+}
+.margin{
+    margin-top: 4%;
+}
+.gradient-text {
+    background-image: linear-gradient(to right, #4e54c8, #8f94fb, #4e54c8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.divImg{
+    width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Pour créer un cercle */
+  overflow: hidden; 
+}
+.containerImg img{
+    width: 100%; /* Pour s'assurer que l'image remplit le cercle */
+    height: auto;
+    display: block; 
+}
+.body{
+    margin-top: 5%;
+}
+.conteneur-cercle {
+    width: 200px; /* Ajuster la taille du conteneur selon vos besoins */
+    height: 200px; /* Ajuster la taille du conteneur selon vos besoins */
+    border-radius: 50%; /* Pour créer un cercle */
+    overflow: hidden; /* Masquer le contenu qui dépasse du cercle */
+    border: 2px solid rgb(255, 254, 254); /* Ajouter une bordure */
+  }
+  
+.image {
+    width: 100%; /* Ajuster la taille de l'image */
+    height: auto; /* Ajuster la taille de l'image */
+    object-fit: cover; /* Assurer que l'image couvre tout le conteneur */
+ /* Déplacer l'image pour que 70% de celle-ci soit visible */
+}
+#main-li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main-li ul{
+    list-style-type: none;
+    display: flex;
+}
+#main-li li{
+    margin-left: 5px;
+}
+.item-skill{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.agent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  
+   
+
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.agent-details h1 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.agent-details h1 span {
+    font-weight: normal;
+}
+
+
+/* .icon-user li{
+    
+    float: right;
+} */
+
+/* <div class="col-5">
+                                    <div class="conteneur-cercle">
+                                        <img src="assets/images/profil2.webp" alt="Image" class="image">
+                                    </div>
+                                </div>
+                                <div class="col-7 text-end">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus autem
+                                        adipisci quis, molestias quaerat reprehenderit totam nobis perferendis velit
+                                        praesentium voluptate repudiandae est. Autem accusantium aut ipsam eos impedit.
+                                    </p>
+                                </div> */
